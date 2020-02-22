@@ -1,4 +1,8 @@
-# build
+# pk_xv6_riscv
+
+riscv-pk(M-mode) + xv6_riscv(S-mode, U-mode).
+
+## build
 
 ```sh
 # TODO: make these repos submodule
