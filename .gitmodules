@@ -1,0 +1,8 @@
+[submodule "riscv-pk"]
+	path = riscv-pk
+	url = https://github.com/knknkn1162/riscv-pk
+	branch = xv6
+[submodule "xv6-riscv"]
+	path = xv6-riscv
+	url = https://github.com/knknkn1162/xv6-riscv
+	branch = rpk
