@@ -15,7 +15,7 @@ all: xv6_build pk_build
 
 pk_build:
 	mkdir -p $(RISCV_PK_BUILD_DIR); cd $(RISCV_PK_BUILD_DIR); \
-	../configure --enable-boot-machine --with-payload=$(XV6_KERNEL) --with-payload-start=$(PAYLOAD_START) --host=$(TOOLPREFIX)
+	../configure --with-payload=$(XV6_KERNEL) --with-payload-start=$(PAYLOAD_START) --host=$(TOOLPREFIX)
 	make -C $(RISCV_PK_BUILD_DIR)
 
 xv6_build:
